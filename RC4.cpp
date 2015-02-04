@@ -50,7 +50,6 @@ void Cypher(int K[],int plainText[])
 	for ( int x = 0; x <= 4; x++ ) 
 	{
 		cypher[x] = K[x] ^ plainText[x];
-
 		cout << cypher[x] << " ";
 	}
 	cout << endl;
